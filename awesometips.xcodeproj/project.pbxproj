@@ -14,6 +14,7 @@
 		1738D4031C82EB8D00B351B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1738D4011C82EB8D00B351B6 /* LaunchScreen.storyboard */; };
 		1738D40E1C82EB8D00B351B6 /* awesometipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738D40D1C82EB8D00B351B6 /* awesometipsTests.swift */; };
 		1738D4191C82EB8D00B351B6 /* awesometipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738D4181C82EB8D00B351B6 /* awesometipsUITests.swift */; };
+		1738D4271C83298E00B351B6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738D4261C83298E00B351B6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1738D4141C82EB8D00B351B6 /* awesometipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = awesometipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1738D4181C82EB8D00B351B6 /* awesometipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awesometipsUITests.swift; sourceTree = "<group>"; };
 		1738D41A1C82EB8D00B351B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1738D4261C83298E00B351B6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1738D3F61C82EB8D00B351B6 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		1738D3F61C82EB8D00B351B6 /* Products */ = {
 			isa = PBXGroup;
@@ -99,6 +102,7 @@
 			children = (
 				1738D3F81C82EB8D00B351B6 /* AppDelegate.swift */,
 				1738D3FA1C82EB8D00B351B6 /* ViewController.swift */,
+				1738D4261C83298E00B351B6 /* SettingsViewController.swift */,
 				1738D3FC1C82EB8D00B351B6 /* Main.storyboard */,
 				1738D3FF1C82EB8D00B351B6 /* Assets.xcassets */,
 				1738D4011C82EB8D00B351B6 /* LaunchScreen.storyboard */,
@@ -258,6 +262,7 @@
 			files = (
 				1738D3FB1C82EB8D00B351B6 /* ViewController.swift in Sources */,
 				1738D3F91C82EB8D00B351B6 /* AppDelegate.swift in Sources */,
+				1738D4271C83298E00B351B6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
